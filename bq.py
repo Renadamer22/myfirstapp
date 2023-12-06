@@ -21,7 +21,6 @@ def get_img_as_base64(file):
 
 
 import streamlit as st
-import cv2
 import pytesseract
 from PIL import Image
 import numpy as np
