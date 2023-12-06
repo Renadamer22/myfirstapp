@@ -9,8 +9,6 @@ st.set_page_config(
 
 
 
-img = get_img_as_base64("/Users/renadamer/Downloads/stream/logos.png")
-
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
