@@ -1,7 +1,6 @@
 import streamlit as st
 import base64
 from PIL import Image
-import cv2
 
 
 st.set_page_config(
