@@ -10,6 +10,7 @@ import os
 import base64
 import streamlit as st
 import plotly.express as px
+import cv2
 
 
 @st.cache_data
@@ -19,13 +20,6 @@ def get_img_as_base64(file):
     return base64.b64encode(data).decode()
 
 
-import streamlit as st
-import pytesseract
-from PIL import Image
-import numpy as np
-import base64
-import plotly.express as px
-import cv2
 
 st.set_page_config(
     page_icon='/Users/renadamer/Downloads/stream/mainpage_app/logo1.png',
